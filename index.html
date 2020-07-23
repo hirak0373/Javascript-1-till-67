@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+<!--*************************Chapter 43 to 48 ************************* -->>
+<h1 class="h1">Chapter 43 to 48</h1>    
+<a onclick="about()" href="">About</a>
+
+
+
+
+<br></br>
+
+
+
+
+
+<div class="pages-link">
+    <div class="row justify-cntent-sm-center justify-cntent-md-center" > 
+        <div class="col1 col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;text-align: center;">
+              <img onclick="thanks()" src="1.jpg" class="card-img-top" alt="...">
+          
+              <div class="card-body">
+                <h5 class="card-title">Vivo v17</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col1 col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;text-align: center;">
+                
+              <img onclick="thanks()" src="2.jpg" class="card-img-top" alt="...">
+             
+            
+              <div class="card-body">
+                    <h5 class="card-title">OPPO F11</h5>
+                
+
+            </div>
+              </div>
+        </div>
+        <div class="col1 col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;text-align: center;">
+                <img onclick="thanks()" src="3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nokia</h5>
+                  </div>
+              </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div>
+
+    <table id="table">
+        <tr>
+            <b>
+        <td>Index</td>
+        <td>Name</td>
+        <td>Class</td>
+        <td></td>
+    </b>
+    </tr>
+    <tr id="1">
+        <td>1</td>
+        <td>Ali</td>
+        <td>4</td>
+        <td><button  onclick="removeElement('1')">Delete</button></td>
+
+    </tr>
+    <tr  id="2">
+        <td>2</td>
+        <td>Ahmed</td>
+        <td>5</td>
+        <td><button  onclick="removeElement('2')">Delete</button></td>
+    </tr>
+    <tr id="3">
+        <td>3</td>
+        <td>kiran</td>
+        <td>7</td>
+        <td><button  onclick="removeElement('3')">Delete</button></td>
+
+    </tr>
+    <tr id="4">
+        <td>4</td>
+        <td>Raza</td>
+        <td>5</td>
+        <td><button  onclick="removeElement('4')">Delete</button></td>
+
+    </tr>
+    <tr id="5">
+        <td>5</td>
+        <td>Sana</td>
+        <td>6</td>
+        <td><button  onclick="removeElement('5')">Delete</button></td>
+
+    </tr>
+    <tr id="6">
+        <td>6</td>
+        <td>Sara</td>
+        <td>6</td>
+        <td><button  onclick="removeElement('6')">Delete</button></td>
+
+    </tr>
+    <tr id="7">
+        <td>7</td>
+        <td>Basit</td>
+        <td>7</td>
+        <td><button  onclick="removeElement('7')">Delete</button></td>
+
+    </tr>
+    <tr id="8">
+        <td>8</td>
+        <td>Hina</td>
+        <td>4</td>
+        <td><button  onclick="removeElement('8')">Delete</button></td>
+
+    </tr>
+    <tr id="9">
+        <td>9</td>
+        <td>Ayan</td>
+        <td>5</td>
+        <td><button  onclick="removeElement('9')">Delete</button></td>
+
+    </tr >
+    <tr id="10">
+        <td>10</td>
+        <td>Arsalah</td>
+        <td>6</td>
+        <td><button  onclick="removeElement('10')">Delete</button></td>
+
+    </tr>
+    </table>
+    
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<img id="img1" onmouseover="setnew(this)" onmouseout="setnew1(this)" src="new1.jpg"  alt="">
+
+
+
+
+
+
+
+<div>
+
+    <h1 id="count">
+        00
+    </h1>
+    <button onclick="inc()">
+        Increase
+    </button>
+    <button onclick="dec()">
+        Decrease
+    </button>
+
+
+</div>
+
+<!--*************************Chapter 49 to 52 ************************* -->>
+<h1 class="h1">Chapter 49 to 52</h1>
+<div>
+
+    <form onclick="signup();return false"   style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input class="frm" type="text" id="username" value="" placeholder="Enter Email" name="email" required>
+      
+          <label  for="psw"><b>Password</b></label>
+          <input class="frm" type="password" id="passward" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input class="frm" type="password" id="rpassward" placeholder="Repeat Password" name="psw-repeat" required>
+          
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+          
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="button1 cancelbtn">Cancel</button>
+            <button    class="button1 signupbtn" >Sign Up</button>
+          </div>
+        </div>
+
+
+      </form></div>
+<div>
+    <p id="informationsignup">
+
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="br">
+    <h3>best spring handbag</h3>
+    <p id="details">One of the best things about a new season is the fresh crop of handbags <a href="javascript:void(0)" onclick="details()">ReadMore</a></p>
+</div>
+
+
+
+
+
+
+
+<div class="chk">
+    <div>
+    Student Name: <input id="Sname" type="text">
+        Class: <input id="class" type="text">
+        <button onclick="addItem()"> Add Item </button>
+        <button onclick="DelAll()"> Delete All</button>
+    </div>
+    <div >
+       <table id="list">
+           <tr>
+               <td>S:NO</td>
+               <td>Name</td>
+               <td>Class</td>
+               <td></td>
+               <td></td>
+           </tr>
+       </table>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--*************************Chapter 53 to 58 ************************* -->>
+<h1 class="h1">Chapter 53 to 58</h1>    
+<!-- Button trigger modal -->
+    <img class="img4" onclick="showImg(this)" data-toggle="modal" data-target="#exampleModal" src="12.jpg" alt="">
+    <img class=" img4" onclick="showImg(this)" data-toggle="modal" data-target="#exampleModal" src="13.jpg" alt="">
+    <img class=" img4" onclick="showImg(this)" data-toggle="modal" data-target="#exampleModal" src="14.png" alt="">
+    <img class=" img4" onclick="showImg(this)" data-toggle="modal" data-target="#exampleModal" src="15.jpg" alt="">
+    
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="big" src="" alt="" id="modelImage">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    
+      <div>
+        <p id="para" style="font-size:  20px; " >
+          A computer is a programmable machine. The two principal characteristics of a computer are: It responds to a specific set of instructions in a well-defined manner and it can execute a prerecorded list of instructions (a program).
+        </p>
+        <p>
+          <button type="button" onclick="zoomin()" onclick="zoomin()">Zoom In</button>
+          <button type="button" onclick="zoomout()">Zoom Out</button>
+        </p >
+      </div>
+    
+
+
+
+
+<!--**************************** Chap 58-67 ***************-->
+
+<!-- Question 1 -->
+
+    <div class="dom" > 
+      <h1> DOM </h1> 
+          <div id="form-content" class="content"> 
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" />
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" />
+              <label for="email">Email</label> 
+              <input type="text" id="email" /> 
+          </div>
+
+          <div id="main-content" class="content "> 
+              <p class="render" id="firstName"> First Name : Alex</p>
+              <p class="render" id="lastName">Last Name: bank</p>
+              <p class="render"> Email : alexbank@example.com</p>
+              <p class="render"> Country : Pakistan </p>
+              <p class="render"> contact : +92 300 1234567</p> 
+          </div> 
+
+ 
+
+</div>
+
+
+
+
+
+
+
+    
+    
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
